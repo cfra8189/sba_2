@@ -1,19 +1,28 @@
+body {
+    background-color: #CFE3E6;
+}
+
 nav {
     display: block;
+    color: blanchedalmond;
     
 }
 
 ul {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-evenly;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #473F8C;
+  
+    
 }
 
 a   {
     text-decoration: none;
-    color: #000;
+    color: blanchedalmond;
 }
 
 
