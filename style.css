@@ -1,4 +1,94 @@
-body {
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 1fr 1fr 1fr 70px
+}
+
+.header {
+
+}
+
+.hero {
+
+}
+
+
+.about {
+
+}
+
+.service {
+
+}
+
+
+.contact {
+
+}
+
+
+.footer {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     background-color: #CFE3E6;
 }
 
@@ -61,4 +151,4 @@ footer {
 .fa-linkedin {
   background: #007bb5;
   color: white;
-}
+} */
