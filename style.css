@@ -1,0 +1,32 @@
+nav {
+    display: block;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a   {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.services {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.serv-items {
+    display: flex;
+    height: 200px;
+    width: 150px;
+    gap: 3;
+    text-align: center;
+    background-color: blanchedalmond;
+    align-items: center;
+}

@@ -2,17 +2,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <title>Accessible Design Co.</title>
   </head>
   <body>
     <header>
       <nav role="navigation">
         <ul>
-          <li role="home" aria-label="home">HOME</li>
-          <li role="about us" aria-label="about us">ABOUT US</li>
-          <li role="services" aria-label="service">SERVICES</li>
-          <li role="contact" aria-label="contact">CONTACT</li>
+          <li role="home" aria-label="home"><a href="#">HOME</a></li>
+          <li role="about us" aria-label="about us"><a href="#">ABOUT US</a></li>
+          <li role="services" aria-label="service"><a href="#">SERVICES</a></li>
+          <li role="contact" aria-label="contact"><a href="#">CONTACT</a></li>
         </ul>
       </nav>
     </header>
@@ -36,18 +36,17 @@
         </p>
     </section>
 
-    <section class="service">
-      <div>CLOSED CAPTIONS</div>
-      <div>ADJUSTABLE TEXT SIZE</div>
-      <div>SCREEN READER</div>
-      <div>HIGH CONTRAST MODE</div>
+    <section class="services">
+      <div class="serv-items">CLOSED CAPTIONS</div>
+      <div class="serv-items">ADJUSTABLE TEXT SIZE</div>
+      <div class="serv-items">SCREEN READER</div>
+      <div class="serv-items">HIGH CONTRAST MODE</div>
     </section>
 
     <section class="form">
         <h3>Contact Form</h3>
       <form action="" role="form">
         
-        <br>
         <label for="firstname">First Name:</label>
         <br>
         <input type="text" name="" id="">
