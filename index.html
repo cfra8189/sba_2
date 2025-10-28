@@ -1,40 +1,68 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Accessible Design Co.</title>
+  </head>
+  <body>
     <header>
-        <nav role="navigation">
-            <ul>
-                <li role="home" aria-label="home">HOME</li>
-                <li role="about us" aria-label="about us">ABOUT US</li>
-                <li role="services" aria-label="service">SERVICES</li>
-                <li role="contact"
-                aria-label="contact">CONTACT</li>
-            </ul>
-        </nav>
+      <nav role="navigation">
+        <ul>
+          <li role="home" aria-label="home">HOME</li>
+          <li role="about us" aria-label="about us">ABOUT US</li>
+          <li role="services" aria-label="service">SERVICES</li>
+          <li role="contact" aria-label="contact">CONTACT</li>
+        </ul>
+      </nav>
     </header>
 
-    <section class="hero-section"></section>
-    
-    <section class="about"></section>
-    
+    <section class="hero-section">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+            took a galley of type and
+        </p>
+        <button role="button"></button>
+    </section>
+
+    <section class="about">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+            took a galley of type and scrambled it to make a type specimen book. It has survived not 
+            only five centuries, but also the leap into electronic typesetting, remaining essentially 
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+            including versions of Lorem Ipsum.
+        </p>
+    </section>
+
     <section class="service">
-        <div>CLOSED CAPTIONS</div>
-        <div>ADJUSTABLE TEXT SIZE</div>
-        <div>SCREEN READER</div>
-        <div>HIGH CONTRAST MODE</div>
-
+      <div>CLOSED CAPTIONS</div>
+      <div>ADJUSTABLE TEXT SIZE</div>
+      <div>SCREEN READER</div>
+      <div>HIGH CONTRAST MODE</div>
     </section>
-    
+
     <section class="form">
-        <form action=""></form>
+        <h3>Contact Form</h3>
+      <form action="" role="form">
+        
+        <br>
+        <label for="firstname">First Name:</label>
+        <br>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <label for="lastname">Last Name:</label>
+        <br>
+        <input type="text" name="lastname" id="lastname">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id=""email>
+
+      </form>
     </section>
-
-
-</body>
+  </body>
 </html>
