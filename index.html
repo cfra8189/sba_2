@@ -3,18 +3,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <title>Accessible Design Co.</title>
   </head>
   <body>
+    <div class="container">
     <header class="header">
+      
+      <div class="nav-group nav-bar">
+      
       <nav role="navigation">
-        <ul>
+        <div class="logo">Accessible Design Co.</div>
+        <ul class="nav-links" >
           <li role="home" aria-label="home"><a href="#">HOME</a></li>
           <li role="about us" aria-label="about us"><a href="#">ABOUT US</a></li>
           <li role="services" aria-label="service"><a href="#">SERVICES</a></li>
           <li role="contact" aria-label="contact"><a href="#">CONTACT</a></li>
         </ul>
       </nav>
+      </div>
+      
     </header>
 
     <section class="hero">
@@ -22,7 +30,7 @@
             has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
             took a galley of type and
         </p>
-        <button role="button">LEARN MORE</button>
+        <button class="btn" role="button">LEARN MORE</button>
     </section>
 
     <section class="about">
@@ -36,15 +44,15 @@
         </p>
     </section>
 
-    <section class="service">
-      <div class="serv-items">CLOSED CAPTIONS</div>
-      <div class="serv-items">ADJUSTABLE TEXT SIZE</div>
-      <div class="serv-items">SCREEN READER</div>
-      <div class="serv-items">HIGH CONTRAST MODE</div>
+    <section class="row">
+      <div class="column">ADJUSTABLE TEXT SIZE</div>
+      <div class="column">SCREEN READER</div>
+      <div class="column">HIGH CONTRAST MODE</div>
     </section>
 
+    <h2 class="h2-contact">CONTACT FORM</h2>
     <section class="contact">
-        <h3>Contact Form</h3>
+        
       <form action="" role="form">
         
         <label for="firstname">First Name:</label>
@@ -79,12 +87,13 @@
 
     <footer class="footer">
         <p>&copy; 2050 Accessible Design Co. </p>
-        <p>| Building 5, DLF Cyber Hub, Sector 24, Haryana, Gurgaon, 122002</p>
+        <p> | Building 5, DLF Cyber Hub, Sector 24, Haryana, Gurgaon, 122002</p>
 
        
         
 
 
     </footer>
+    </div>
   </body>
 </html>
