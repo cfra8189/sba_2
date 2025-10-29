@@ -12,11 +12,11 @@
     <div class="container">
     <header class="header">
       
-      <div class="nav-group nav-bar">
+      
       
       <nav role="navigation">
         <div class="logo">Accessible Design Co.</div>
-        <ul class="navlinks" id="myNavlinks" >
+        <ul class="nav" id="myNavlinks" >
           <li role="home" aria-label="home" class="active"><a href="#">HOME</a></li>
           <li role="about us" aria-label="about us"><a href="#">ABOUT US</a></li>
           <li role="services" aria-label="service"><a href="#">SERVICES</a></li>
@@ -26,7 +26,7 @@
   </a>
         </ul>
       </nav>
-      </div>
+      
       
     </header>
 
@@ -35,7 +35,7 @@
             has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
             took a galley of type and
         </p>
-        <button class="btn" role="button">LEARN MORE</button>
+        <button class="btn" role="button" aria-label="Click to learn more">LEARN MORE</button>
     </section>
 
     <section class="about">
@@ -50,9 +50,9 @@
     </section>
 
     <section class="row">
-      <div class="column col-1">ADJUSTABLE TEXT SIZE</div>
-      <div class="column col-2">SCREEN READER</div>
-      <div class="column col-3">HIGH CONTRAST MODE</div>
+      <div class="column col-1" aria-label="adjustable text size">ADJUSTABLE TEXT SIZE</div>
+      <div class="column col-2" aria-label="screen reader">SCREEN READER</div>
+      <div class="column col-3"  aria-label="high contrast mode">HIGH CONTRAST MODE</div>
     </section>
 
     <h2 class="h2-contact">CONTACT FORM</h2>
@@ -61,17 +61,17 @@
 
 <form action="/action_page.php">
   <label for="fname">First Name</label>
-  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <input aria-label="Enter your first name" type="text" id="fname" name="firstname" placeholder="Your name..">
 
-  <label for="lname">Last Name</label>
-  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  <label  for="lname">Last Name</label>
+  <input aria-label="Enter your last name" type="text" id="lname" name="lastname" placeholder="Your last name..">
 
   <label for="email">Email</label>
-  <input type="email" id="email" name="email" placeholder="email@address.com">
+  <input  aria-label="Enter your email address"type="email" id="email" name="email" placeholder="email@address.com">
 
   <label for="message">Your Message:</label><br>
   <textarea id="message" name="message" rows="10" cols="30">Enter your message here...</textarea>
-  <input type="submit" id="submit" name="submit" placeholder="Enter your message here..." role="submit">
+  <input aria-label="Submit a message"type="submit" id="submit" name="submit" placeholder="Enter your message here..." aria-live="submit" role="submit">
 
 </form>
 
@@ -105,11 +105,16 @@
     </section> -->
     
 
-    <footer class="footer">
-        <p>&copy; 2050 Accessible Design Co. </p>
-        <p> | Building 5, DLF Cyber Hub, Sector 24, Haryana, Gurgaon, 122002</p>
-
+    <footer role="footer" class="footer">
+        <p>&copy; 2050 Accessible Design Co.</p>
        
+        <ul aria-label="social media links">
+          <li aria-label="Accessible Design LinkedIn"><a href="#">LinkedIn</a></li>
+          <li aria-label="Accessible Design Facebook"><a href="#">Facebook</a></li>
+          <li aria-label="Accessible Design Instagram"><a href="#">Instagram</a></li>
+        </ul>
+
+        <p aria-label="Email us at admin@AccessibleDesign.com">admin@AccessibleDesign.com</p>
         
 
 
