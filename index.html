@@ -4,6 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/script.js" defer></script>    
     <title>Accessible Design Co.</title>
   </head>
   <body>
@@ -14,11 +16,14 @@
       
       <nav role="navigation">
         <div class="logo">Accessible Design Co.</div>
-        <ul class="nav-links" >
-          <li role="home" aria-label="home"><a href="#">HOME</a></li>
+        <ul class="navlinks" id="myNavlinks" >
+          <li role="home" aria-label="home" class="active"><a href="#">HOME</a></li>
           <li role="about us" aria-label="about us"><a href="#">ABOUT US</a></li>
           <li role="services" aria-label="service"><a href="#">SERVICES</a></li>
           <li role="contact" aria-label="contact"><a href="#">CONTACT</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
         </ul>
       </nav>
       </div>
@@ -45,9 +50,9 @@
     </section>
 
     <section class="row">
-      <div class="column">ADJUSTABLE TEXT SIZE</div>
-      <div class="column">SCREEN READER</div>
-      <div class="column">HIGH CONTRAST MODE</div>
+      <div class="column col-1">ADJUSTABLE TEXT SIZE</div>
+      <div class="column col-2">SCREEN READER</div>
+      <div class="column col-3">HIGH CONTRAST MODE</div>
     </section>
 
     <h2 class="h2-contact">CONTACT FORM</h2>
