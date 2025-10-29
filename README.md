@@ -14,3 +14,4 @@ The project is divided into three main files:
 
 - script.js is the interactivity file. It contains the simple myFunction() logic used to toggle the responsive class on the navigation list (.nav) when the hamburger icon is clicked.
 
+W3schools was a great help with this project.
