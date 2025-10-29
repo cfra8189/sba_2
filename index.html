@@ -1,0 +1,124 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/script.js" defer></script>    
+    <title>Accessible Design Co.</title>
+  </head>
+  <body>
+    <div class="container">
+    <header class="header">
+      
+      
+      
+      <nav role="navigation">
+        <div class="logo">Accessible Design Co.</div>
+        <ul class="nav" id="myNavlinks" >
+          <li role="home" aria-label="home" class="active"><a href="#">HOME</a></li>
+          <li role="about us" aria-label="about us"><a href="#">ABOUT US</a></li>
+          <li role="services" aria-label="service"><a href="#">SERVICES</a></li>
+          <li role="contact" aria-label="contact"><a href="#">CONTACT</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+        </ul>
+      </nav>
+      
+      
+    </header>
+
+    <section class="hero">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+            took a galley of type and
+        </p>
+        <button class="btn" role="button" aria-label="Click to learn more">LEARN MORE</button>
+    </section>
+
+    <section class="about">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+            has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+            took a galley of type and scrambled it to make a type specimen book. It has survived not 
+            only five centuries, but also the leap into electronic typesetting, remaining essentially 
+            unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker 
+            including versions of Lorem Ipsum.
+        </p>
+    </section>
+
+    <section class="row">
+      <div class="column col-1" aria-label="adjustable text size">ADJUSTABLE TEXT SIZE</div>
+      <div class="column col-2" aria-label="screen reader">SCREEN READER</div>
+      <div class="column col-3"  aria-label="high contrast mode">HIGH CONTRAST MODE</div>
+    </section>
+
+    <h2 class="h2-contact">CONTACT FORM</h2>
+
+
+
+<form action="/action_page.php">
+  <label for="fname">First Name</label>
+  <input aria-label="Enter your first name" type="text" id="fname" name="firstname" placeholder="Your name..">
+
+  <label  for="lname">Last Name</label>
+  <input aria-label="Enter your last name" type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+  <label for="email">Email</label>
+  <input  aria-label="Enter your email address"type="email" id="email" name="email" placeholder="email@address.com">
+
+  <label for="message">Your Message:</label><br>
+  <textarea id="message" name="message" rows="10" cols="30">Enter your message here...</textarea>
+  <input aria-label="Submit a message"type="submit" id="submit" name="submit" placeholder="Enter your message here..." aria-live="submit" role="submit">
+
+</form>
+
+
+    <!-- <section class="contact">
+        
+      <form action="" role="form">
+        
+        <label for="firstname">First Name:</label>
+        <br>
+        <input type="text" name="" id="">
+        <br>
+        <br>
+        <label for="lastname">Last Name:</label>
+        <br>
+        <input type="text" name="lastname" id="lastname">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" name="email" id=""email>
+        <br>
+        <br>
+        <label for="message">Your Message:</label><br>
+  <textarea id="message" name="message" rows="10" cols="30">
+    Enter your message here...
+  </textarea><br><br>
+  <input type="submit" value="Submit" role="submit">
+
+      </form>
+    </section> -->
+    
+
+    <footer role="footer" class="footer">
+        <p>&copy; 2050 Accessible Design Co.</p>
+       
+        <ul aria-label="social media links">
+          <li aria-label="Accessible Design LinkedIn"><a href="#">LinkedIn</a></li>
+          <li aria-label="Accessible Design Facebook"><a href="#">Facebook</a></li>
+          <li aria-label="Accessible Design Instagram"><a href="#">Instagram</a></li>
+        </ul>
+
+        <p aria-label="Email us at admin@AccessibleDesign.com">admin@AccessibleDesign.com</p>
+        
+
+
+    </footer>
+    </div>
+  </body>
+</html>
